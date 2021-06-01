@@ -47,7 +47,8 @@ const AddUser = (props) => {
   }
 
   return (
-    <div>
+    // <Wrapper>
+    <React.Fragment>
       {/* if error is a thing render Modal else render nothing we can get rid 
       of error by setting error state value to null or undefined */}
       {error && (
@@ -73,7 +74,8 @@ const AddUser = (props) => {
           <Button type="submit">Add User</Button>
         </form>
       </Card>
-    </div>
+    </React.Fragment>
+    // </Wrapper>
   );
 }
 
