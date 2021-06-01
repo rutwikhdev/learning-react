@@ -17,3 +17,11 @@
     1. Seperate the components to port in individual components.
     2. Then we call a method from 'react-dom' library.
 * The idea with portals is really simple that rendered html content is moved somewhere else.
+
+# Refs allow us to access to other DOM elements and work with them.
+* Updating the input state with every keystroke when we only need them while submitting the form sounds a little bit redundant.
+* Refs can help us here.
+* With refs we set up a connection to html element which is being rendered  nad JS code.
+* useRef() returns a value which allows us to work with the element which it is connected to.
+* If we just want to read a value refs are probably from state solution.
+* If we manipulate values like this with refs they are also called by uncontrolled components, because the value inside them is not controlled by react.
